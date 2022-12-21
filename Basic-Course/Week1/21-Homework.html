@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .weather {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .tokyo {
+            font-size: 34px;
+            color: #1a64d6;
+        }
+
+        span.bold {
+            font-weight: bolder;
+        }
+
+        .cloud1 {
+            color: #1a64d6;
+        }
+
+        .credit {
+            font-family: monospace;
+            font-size: 18px;
+            color: #000000;
+        }
+
+        .first,
+        .second.third {
+            padding: 10px 0;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+
+        button {
+            padding: 10px 0;
+            background: #1a64d6;
+            color: #FFF;
+            padding: 16px 24px;
+            margin: 20px auto;
+            font-size: 16px;
+            border: 1px solid #1a64d6;
+            border-radius: 30px;
+            box-shadow: rgb(27 29 89 / 8%) 0px 8px 8px 0;
+        }
+
+        p {
+            opacity: 0.7;
+            font-size: 18px;
+            font-family: monospace;
+        }
+
+        button:hover {
+            transition: all 200ms ease;
+            color: #1a64d6;
+            background: #FFF;
+            cursor: pointer;
+        }
+        .weather{
+            display: block;
+            margin: 0 auto;
+        }
+
+        ul{
+            padding: 0px;
+        }
+
+        li {
+            list-style: none;
+            margin: 0px auto;
+            border-radius: 10px;
+            max-width: 400px;
+            padding: 10px 0px;
+            transition: all 200ms ease-in-out;
+        }
+
+        li:hover {
+            background-color: #fffbef;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="weather">
+        <h1 class="cloud1">🌤</h1>
+        <h1 class="tokyo">Currently 21° in Tokyo</h1>
+        <h2>13° /
+            <span class="bold">23°</span>
+        </h2>
+        <ul>
+            <li class="first">
+                <h3>🌧️Tomorrow</h3>
+                <p>10° / 22°</p>
+            </li>
+            <li class="second">
+                <h3>🌥️ Saturday</h3>
+                <p>15° / 17°</p>
+            </li>
+            <li class="third">
+                <h3>☀️ Sunday</h3>
+                <p>25° / 28°</p>
+            </li>
+        </ul>
+        <button class="change">Change city</button>
+        <p class="credit">Coded by yasamin</p>
+    </div>
+</body>
+
+</html>

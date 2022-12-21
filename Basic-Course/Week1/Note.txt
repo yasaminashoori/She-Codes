@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding workshops for women | SheCodes</title>
+    <style>
+        body {
+            display: block;
+            margin: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1a64d6;
+            font-size: 34px;
+            line-height: 48px;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            font-size: 34px;
+            line-height: 48px;
+            margin: 0;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li {
+            list-style: none;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 0px auto;
+            padding: 10px 0px;
+            transition: all 200ms ease-in-out;
+        }
+
+        li:hover {
+            background-color: #fffbef;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.7;
+            font-family: monospace;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #1a64d6;
+            background: #1a64d6;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 30px;
+            box-shadow: rgb(27 29 89 / 8%) 0px 8px 8px 0;
+            cursor: pointer;
+            transition: all 200ms ease;
+        }
+
+        button:hover {
+            background-color: #ffffff;
+            color: #1a64d6;
+        }
+
+        .homework {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homework">
+        <h1>
+            🌤️
+            <br />
+            Currently 21° in Tokyo
+        </h1>
+        <h2>
+            13° /
+            <strong> 23° </strong>
+        </h2>
+        <ul>
+            <li>
+                <h3>🌧️Tomorrow</h3>
+                <p>
+                    10° /
+                    <strong> 22° </strong>
+                </p>
+            </li>
+            <li>
+                <h3>🌥️ Saturday</h3>
+                <p>
+                    15° /
+                    <strong> 17° </strong>
+                </p>
+            </li>
+            <li>
+                <h3>☀️ Sunday</h3>
+                <p>
+                    25° /
+                    <strong> 28° </strong>
+                </p>
+            </li>
+        </ul>
+        <button>Change city</button>
+        <p>Coded by Becca</p>
+    </div>
+</body>
+
+</html>

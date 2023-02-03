@@ -1,4 +1,4 @@
 # She-Codes 👩‍💻
 Workshops includes : 
-1- Basic 
-2- Plus
+ <li>Basic</li>
+<li>Plus</li>

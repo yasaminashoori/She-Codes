@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Math 👩‍💻</title>
-    <link rel="stylesheet" href="/final-project.css">
+    <link rel="stylesheet" href="final-project.css">
 </head>
 <body>
     <div class="container">
@@ -16,7 +16,7 @@
             Maryam Mirzakhani
         </h2>
         <hr>
-        <img src="/Maryam-Mirzakhani.png"
+        <img src="Maryam-Mirzakhani.png"
             alt="Maryam Mirzakhani" />
         <hr>
         <p>
@@ -30,7 +30,7 @@
         <a href="https://en.wikipedia.org/wiki/Maryam_Mirzakhani" target="_blank" class="learn-more">
             Learn more on Wikipedia
         </a>
-        <button class="buy-button">
+        <button class="read-button">
             ✍ See Articles
         </button>
         <p class="footer">
@@ -39,7 +39,7 @@
         </p>
     </div>
     <script>
-        function buy() {
+        function read() {
             let name = prompt("What is your name ?");
             let email = prompt("What is your email ?");
             let rolemodel = prompt("Who is your role model ?");
@@ -51,8 +51,8 @@
                 alert("Thank you " + name + "we'll be in touch by your email " + emoji);
             }
         }
-        let buyButton = document.querySelector(".buy-button");
-        buyButton.addEventListener("click", buy);
+        let readButton = document.querySelector(".read-button");
+        readButton.addEventListener("click", read);
     </script>
 </body>
 

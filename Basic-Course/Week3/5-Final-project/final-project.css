@@ -38,7 +38,7 @@ p {
   line-height: 1.5;
   font-size: 15px;
   margin: 20px 0 10px;
-  color: #CCC;
+  color: #ccc;
 }
 
 .learn-more {
@@ -52,8 +52,7 @@ p {
   text-decoration: underline;
 }
 
-
-hr{
+hr {
   background-color: #ccc;
 }
 
@@ -61,9 +60,16 @@ hr{
   max-width: 600px;
   margin: 0 auto;
   padding: 30px 60px;
-  background: radial-gradient(263px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgb(205, 181, 93) 36.4%, rgb(244, 102, 90) 50.9%, rgb(199, 206, 187) 60.7%, rgb(249, 140, 69) 72.5%, rgb(12, 73, 116) 72.6%);
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(12, 73, 116) 72.6%
+  );
 }
-
 
 button {
   display: block;
@@ -90,7 +96,7 @@ button:hover {
   margin-top: 30px;
 }
 
-span{
+span {
   font-size: 1.3em;
   color: rgb(205, 113, 231);
 }
